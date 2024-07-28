@@ -1,0 +1,221 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900&amp;family=Space+Grotesk%3Awght%40400%3B500%3B700"
+    />
+
+    <title>Galileo Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#111218] dark group/design-root overflow-x-hidden" style='font-family: "Space Grotesk", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#292b38] px-10 py-3">
+          <div class="flex items-center gap-4 text-white">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M24 45.8096C19.6865 45.8096 15.4698 44.5305 11.8832 42.134C8.29667 39.7376 5.50128 36.3314 3.85056 32.3462C2.19985 28.361 1.76794 23.9758 2.60947 19.7452C3.451 15.5145 5.52816 11.6284 8.57829 8.5783C11.6284 5.52817 15.5145 3.45101 19.7452 2.60948C23.9758 1.76795 28.361 2.19986 32.3462 3.85057C36.3314 5.50129 39.7376 8.29668 42.134 11.8833C44.5305 15.4698 45.8096 19.6865 45.8096 24L24 24L24 45.8096Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-white text-lg font-bold leading-tight tracking-[-0.015em]">Galactic</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <label class="flex flex-col min-w-40 !h-10 max-w-64">
+              <div class="flex w-full flex-1 items-stretch rounded-xl h-full">
+                <div
+                  class="text-[#9da2b8] flex border-none bg-[#292b38] items-center justify-center pl-4 rounded-l-xl border-r-0"
+                  data-icon="MagnifyingGlass"
+                  data-size="24px"
+                  data-weight="regular"
+                >
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"
+                    ></path>
+                  </svg>
+                </div>
+                <input
+                  placeholder="Search"
+                  class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-white focus:outline-0 focus:ring-0 border-none bg-[#292b38] focus:border-none h-full placeholder:text-[#9da2b8] px-4 rounded-l-none border-l-0 pl-2 text-base font-normal leading-normal"
+                  value=""
+                />
+              </div>
+            </label>
+            <div class="flex gap-2">
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#304fe8] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Sign up</span>
+              </button>
+              <button
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#292b38] text-white text-sm font-bold leading-normal tracking-[0.015em]"
+              >
+                <span class="truncate">Log in</span>
+              </button>
+            </div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <p class="text-white tracking-light text-[32px] font-bold leading-tight min-w-72">
+                Space is big. Really big. And it's full of weird and wonderful things. Let's take a closer look.
+              </p>
+            </div>
+            <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">The Milky Way</h3>
+            <div class="flex w-full grow bg-[#111218] @container p-4">
+              <div class="w-full gap-1 overflow-hidden bg-[#111218] @[480px]:gap-2 aspect-[3/2] rounded-xl flex">
+                <div
+                  class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none flex-1"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/85fbdc42-7e51-4144-9599-88f8fdf04744.png");'
+                ></div>
+              </div>
+            </div>
+            <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">
+              The Milky Way is a barred spiral galaxy, about 100,000 light-years across. It contains 200-400 billion stars, 100 billion planets, and 4 billion habitable planets.
+              The Solar System is located within the disk, about 27,000 light-years away from the Galactic Center.
+            </p>
+            <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">What are black holes?</h3>
+            <div class="flex w-full grow bg-[#111218] @container p-4">
+              <div class="w-full gap-1 overflow-hidden bg-[#111218] @[480px]:gap-2 aspect-[3/2] rounded-xl flex">
+                <div
+                  class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none flex-1"
+                  style='background-image: url("https://cdn.usegalileo.ai/stability/5dbb31b5-f800-4760-a20c-a4d51709139f.png");'
+                ></div>
+              </div>
+            </div>
+            <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">
+              A black hole is a region of spacetime where gravity is so strong that nothing can escape from it. The theory of general relativity predicts that a sufficiently
+              compact mass can deform spacetime to form a black hole. The boundary of the region from which no escape is possible is called the event horizon.
+            </p>
+            <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">Why is the sky blue?</h3>
+            <div class="flex w-full grow bg-[#111218] @container p-4">
+              <div class="w-full gap-1 overflow-hidden bg-[#111218] @[480px]:gap-2 aspect-[3/2] rounded-xl flex">
+                <div
+                  class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none flex-1"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/232b5437-a4bf-40fe-ae79-d88b19f86f6e.png");'
+                ></div>
+              </div>
+            </div>
+            <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Rayleigh scattering is the scattering of light by particles smaller than the wavelength being scattered. It causes the blue color of the sky during the day and the
+              red-orange color of the sun at sunrise and sunset.
+            </p>
+            <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">How big is the universe?</h3>
+            <div class="flex w-full grow bg-[#111218] @container p-4">
+              <div class="w-full gap-1 overflow-hidden bg-[#111218] @[480px]:gap-2 aspect-[3/2] rounded-xl flex">
+                <div
+                  class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none flex-1"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/ccdd9532-372d-4aa8-98d0-628ad905b739.png");'
+                ></div>
+              </div>
+            </div>
+            <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">
+              The observable Universe is about 93 billion light-years in diameter. The Universe is expanding and has been since the Big Bang occurred about 13.8 billion years ago.
+            </p>
+            <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">How many planets are there?</h3>
+            <div class="flex w-full grow bg-[#111218] @container p-4">
+              <div class="w-full gap-1 overflow-hidden bg-[#111218] @[480px]:gap-2 aspect-[3/2] rounded-xl flex">
+                <div
+                  class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none flex-1"
+                  style='background-image: url("https://cdn.usegalileo.ai/stability/d12809b5-0101-4c27-9893-89201357fa54.png");'
+                ></div>
+              </div>
+            </div>
+            <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">
+              There are 8 confirmed planets in the Solar System: Mercury, Venus, Earth, Mars, Jupiter, Saturn, Uranus, Neptune. There are 5 dwarf planets: Pluto, Eris, Haumea,
+              Makemake, and Ceres. There are also over 4,000 confirmed exoplanets orbiting other stars.
+            </p>
+            <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">What is a supernova?</h3>
+            <div class="flex w-full grow bg-[#111218] @container p-4">
+              <div class="w-full gap-1 overflow-hidden bg-[#111218] @[480px]:gap-2 aspect-[3/2] rounded-xl flex">
+                <div
+                  class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none flex-1"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/4fdf628e-b329-48d2-81b4-9566830e1dbd.png");'
+                ></div>
+              </div>
+            </div>
+            <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">
+              A supernova is a stellar explosion that briefly outshines an entire galaxy, radiating as much energy as the Sun is expected to emit over its entire life span. This
+              occurs during the last evolutionary stages of a massive star or when a white dwarf is triggered into runaway nuclear fusion.
+            </p>
+            <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">What is a comet?</h3>
+            <div class="flex w-full grow bg-[#111218] @container p-4">
+              <div class="w-full gap-1 overflow-hidden bg-[#111218] @[480px]:gap-2 aspect-[3/2] rounded-xl flex">
+                <div
+                  class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none flex-1"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/6016e978-ca62-4d7d-87f9-7dd39831ae58.png");'
+                ></div>
+              </div>
+            </div>
+            <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">
+              A comet is an icy small Solar System body that, when passing close to the Sun, heats up and begins to outgas, displaying a visible atmosphere or coma, and sometimes
+              also a tail. These phenomena are due to the effects of solar radiation and the solar wind upon the nucleus of the comet.
+            </p>
+            <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">What is a quasar?</h3>
+            <div class="flex w-full grow bg-[#111218] @container p-4">
+              <div class="w-full gap-1 overflow-hidden bg-[#111218] @[480px]:gap-2 aspect-[3/2] rounded-xl flex">
+                <div
+                  class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none flex-1"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/fc17dd4f-a12b-460e-9f08-102e042813e3.png");'
+                ></div>
+              </div>
+            </div>
+            <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">
+              A quasar is an extremely luminous active galactic nucleus (AGN) that is powered by a supermassive black hole. It is believed that the intense brightness of quasars
+              results from the accretion of material around the supermassive black hole.
+            </p>
+            <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">What is dark matter?</h3>
+            <div class="flex w-full grow bg-[#111218] @container p-4">
+              <div class="w-full gap-1 overflow-hidden bg-[#111218] @[480px]:gap-2 aspect-[3/2] rounded-xl flex">
+                <div
+                  class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none flex-1"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/9838db37-88ee-407e-98d1-dd7f6e4e1c4b.png");'
+                ></div>
+              </div>
+            </div>
+            <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Dark matter is a hypothetical form of matter that is thought to account for approximately 85% of the total matter in the Universe and about a quarter of its total
+              energy density. Its presence is inferred from the gravitational effects that it exerts on visible matter, radiation, and the large-scale structure of the cosmos.
+            </p>
+            <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">What is dark energy?</h3>
+            <div class="flex w-full grow bg-[#111218] @container p-4">
+              <div class="w-full gap-1 overflow-hidden bg-[#111218] @[480px]:gap-2 aspect-[3/2] rounded-xl flex">
+                <div
+                  class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none flex-1"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/76aa6fab-7849-4b14-9908-6462450109a3.png");'
+                ></div>
+              </div>
+            </div>
+            <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Dark energy is a hypothetical form of energy that is thought to account for approximately 68% of the total energy density of the Universe. It is believed to be
+              responsible for the observed acceleration of the cosmic expansion. Dark energy may be a cosmological constant, a dynamic field, or some other exotic form of energy.
+            </p>
+            <h3 class="text-white text-lg font-bold leading-tight tracking-[-0.015em] px-4 pb-2 pt-4">What is antimatter?</h3>
+            <div class="flex w-full grow bg-[#111218] @container p-4">
+              <div class="w-full gap-1 overflow-hidden bg-[#111218] @[480px]:gap-2 aspect-[3/2] rounded-xl flex">
+                <div
+                  class="w-full bg-center bg-no-repeat bg-cover aspect-auto rounded-none flex-1"
+                  style='background-image: url("https://cdn.usegalileo.ai/sdxl10/c57c4069-bb36-491a-9545-154c59ae4c1f.png");'
+                ></div>
+              </div>
+            </div>
+            <p class="text-white text-base font-normal leading-normal pb-3 pt-1 px-4">
+              Antimatter is a material composed of antiparticles, which have the same mass as particles of ordinary matter but have opposite charge and other particle properties,
+              such as lepton and baryon number. When a particle and its corresponding antiparticle come into contact, they annihilate each other, converting their mass into energy.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
